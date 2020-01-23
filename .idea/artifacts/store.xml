@@ -10,6 +10,7 @@
           <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
           <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.example:online-store-service:0.0.1-SNAPSHOT" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="web-ui/web/Web" />

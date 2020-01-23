@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/functions" prefix = "fn" %>
 
 <spring:url var="css" value="/resources/css"/>
 <spring:url var="vendor" value="/resources/vendor"/>
@@ -53,6 +53,10 @@
 <c:if test="${userClickContact == true}" >
     <%@include file="contact.jsp"%>
 </c:if>
+
+        <c:if test="${userClickAllProducts == true or userClickCategoryProducts == true}" >
+            <%@include file="listProducts.jsp"%>
+        </c:if>
     </div>
 <!-- /.container -->
 

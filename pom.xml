@@ -23,6 +23,9 @@
             <artifactId>online-store-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+
+
     </dependencies>
 
     <build>

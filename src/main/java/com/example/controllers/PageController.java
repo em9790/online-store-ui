@@ -22,7 +22,7 @@ public class PageController {
     @RequestMapping(value = {"/" , "/home", "/page"})
     public ModelAndView index(){
         ModelAndView mv = new ModelAndView("page");
-        mv.addObject("title", "home");
+        mv.addObject("title", "Home");
         mv.addObject("userClickHome", true);
         List<Category> list = categoryDAO.list();
         mv.addObject("categories", list);

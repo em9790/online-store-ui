@@ -23,11 +23,13 @@
     <!-- Bootstrap core CSS -->
     <link href="${vendor}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="${vendor}/bootstrap/css/bootstrap-cosmo-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="${css}/font-awesome.min.css" >
     <!-- Custom styles for this template -->
     <link href="${css}/shop-homepage.css" rel="stylesheet">
-
+    <link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
     <script>
-        window.menu ='${title}'
+        window.menu ='${title}';
+        window.contextRoot='${contextRoot}';
     </script>
 
 </head>
@@ -67,7 +69,8 @@
 <!-- Bootstrap core JavaScript -->
 <script src="${vendor}/jquery/jquery.min.js"></script>
 <script src="${vendor}/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+<script src="${vendor}/jquery.dataTables.js"></script>
+<script src="${vendor}/dataTables.bootstrap4.js"></script>
 <!--Self code javascript -->
 <script src="${vendor}/myApp.js" ></script>
 </body>
